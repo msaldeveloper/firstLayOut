@@ -37,3 +37,21 @@
     color: #0fb49b;
     text-align: center;
 }
+.articulo1{
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    
+}
+.letraPequeña{
+    font-size: small;
+    color: grey;
+}
+.letraGrande{
+    font-size: larger;
+}
+.articulo2{
+    margin: 2%;
+    border: black;
+    background-color: white;
+}
