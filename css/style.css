@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: DM Sans;
+}
+.headerCont{
+        background-image: url(../design/MaskGroup.png);
+        height: 50%;
+        background-position: center;
+        background-size: 100%;
+        background-color: #F9FFF2;
+        padding: 8px;
+
+}
+.navegador{
+    display: flex;
+    justify-content: space-around;
+}
+.headerText{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.pieTitulo{
+    display: flex;
+    justify-content: center; 
+}
+.moneyBack{
+    color: #0fb49b;
+    text-align: center;
+}
