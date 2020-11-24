@@ -1,28 +1,40 @@
 *{
     box-sizing: border-box;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0 ;
     font-family: DM Sans;
 }
 .headerCont{
         background-image: url(../design/MaskGroup.png);
         height: 50%;
         background-position: center;
-        background-size: 100%;
+        background-size: contain;
         background-color: #F9FFF2;
         padding: 8px;
+        background-repeat: no-repeat ;
 
 }
 .navegador{
+    padding: 0 100px;
+    list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
+.navegadorDerecho{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .headerText{
     
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 40px;
+    margin: 20px 0;
 }
 .titulo{
     display: flex;
@@ -38,8 +50,9 @@
     text-align: center;
 }
 .articulo1{
+    padding: 0 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-color: black;
     
 }
@@ -54,4 +67,14 @@
     margin: 2%;
     border: black;
     background-color: white;
+}
+.boton{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #4110f7;
+    color: white;
+    border: none;
+    border-radius: 5%;
+
 }
